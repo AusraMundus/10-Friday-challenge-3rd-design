@@ -1,0 +1,8 @@
+.container {
+    max-width: 1175px;
+    padding-left: 135px;
+    padding-right: 130px;
+    display: flex;
+    align-items: center;
+}
+

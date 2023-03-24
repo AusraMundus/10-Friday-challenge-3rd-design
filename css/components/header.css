@@ -1,0 +1,35 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 35px;
+    padding-bottom: 35px;
+    background-color: #74C69D;
+}
+
+.header-logo {
+    width: 187px;
+    height: 50px;
+    object-fit: contain;
+    object-position: left;
+}
+
+.main-nav {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 30px;
+}
+
+.menu-link {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    line-height: 25px;
+    text-align: right;
+}
+
+.menu-link:hover {
+    color: black;
+}
