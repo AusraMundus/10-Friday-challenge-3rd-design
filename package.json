@@ -1,0 +1,16 @@
+{
+  "name": "10-friday-challenge-3rd-design",
+  "version": "1.0.0",
+  "description": "Friday challenge 3rd design",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "dead-server --host=localhost --port=4310"
+  },
+  "keywords": [],
+  "author": "Ausra <munduswebstudio@gmail.com> (https://github.com/AusraMundus)",
+  "license": "MIT",
+  "devDependencies": {
+    "dead-server": "^1.0.9"
+  }
+}
