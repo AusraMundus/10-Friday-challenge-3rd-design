@@ -191,6 +191,8 @@
     .section-partners {
         padding-left: 20px;
         padding-right: 20px;
+        padding-top: 22px;
+        padding-bottom: 22px;
     }
     .section-partners .content {
         max-width: 355px;
