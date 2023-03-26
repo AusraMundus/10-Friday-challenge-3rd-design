@@ -1,8 +1,19 @@
+/* Išdėstymo nustatymai, bendri elementams */
+
 .container {
-    max-width: 1175px;
-    padding-left: 135px;
-    padding-right: 130px;
     display: flex;
     align-items: center;
+    max-width: 1180px;
+    margin: auto;
+    padding-left: 130px;
+    padding-right: 130px;
+}
+
+.hero {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-bottom: 82.87px;
+    background-color: #74C69D;
 }
 

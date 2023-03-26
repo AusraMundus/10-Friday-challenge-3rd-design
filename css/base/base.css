@@ -1,14 +1,12 @@
-/* baziniai nustatymai */
+/* Baziniai nustatymai, kurie nesikeičia visame projekte*/
 
 body,
 body * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    max-width: 1440px;
 }
 
 body {
     font-family: 'Work Sans', sans-serif;
-    background-color: #74C69D;
 }

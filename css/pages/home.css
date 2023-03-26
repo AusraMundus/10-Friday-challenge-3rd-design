@@ -5,5 +5,130 @@
 @import '../3rd-party/font-awesome.min.css';
 /* components */
 @import '../components/header.css';
-@import '../components/hero.css'
+
 /* CUSTOM */
+
+/* Section Hero */
+
+.hero .content {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    width: 416px;
+    text-align: left;
+    color: white;
+}
+
+.hero .topic {
+    text-transform: uppercase;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 5px;
+    font-weight: 700;
+}
+
+.hero .title {
+    font-family: 'Crimson Text', serif;
+    font-size: 40px;
+    line-height: 50px;
+}
+
+.hero .description {
+    font-size: 15px;
+    line-height: 19px;
+}
+
+.hero .btn {
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+    line-height: 25px;
+    text-align: center;
+    background-color: white;
+    border: 0;
+    border-radius: 5px;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    padding-left: 47.5px;
+    padding-right: 47.5px;
+}
+
+.hero .btn:hover {
+    color: white;
+    background-color: black;
+}
+
+.hero .image {
+
+}
+
+/* Section Partners */
+
+.partners {
+    display: flex;
+    flex-direction: column;
+    gap: 55px;
+    text-align: center;
+    color: black;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    background-color: white;
+}
+
+.partners .content {
+    width: 411px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    
+}
+
+.partners .topic {
+    text-transform: uppercase;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 5px;
+    font-weight: 700;
+    color: #74C69D;
+}
+
+.partners .title {
+    font-family: 'Crimson Text', serif;
+    font-size: 40px;
+    line-height: 50px;
+}
+
+.partners .description {
+    font-size: 20px;
+    line-height: 25px;
+}
+
+.partner-logos {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    gap: 68px;
+    line-height: 50px;
+}
+
+.partners .btn {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    line-height: 25px;
+    text-align: center;
+    background-color: #212529;
+    border: 0;
+    border-radius: 5px;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    padding-left: 47.5px;
+    padding-right: 47.5px;
+}
+
+.partners .btn:hover {
+    color: white;
+    background-color: #74C69D;
+}
