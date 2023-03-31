@@ -1,12 +1,14 @@
+@import '../base/base.css';
+@import '../base/layout.css';
+
 .header {
     display: flex;
+    flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    padding-top: 35px;
-    padding-bottom: 40px;
-    padding-left: 135px;
-    padding-right: 130px;
+    padding: 35px 135px;
     background-color: #74C69D;
+    
 }
 
 .header-logo {
@@ -26,10 +28,8 @@
 
 .menu-link {
     color: white;
-    text-decoration: none;
     font-size: 20px;
     line-height: 25px;
-    text-align: right;
 }
 
 .menu-link:hover {

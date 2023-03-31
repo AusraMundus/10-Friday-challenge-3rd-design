@@ -1,18 +1,12 @@
-/* Išdėstymo nustatymai, bendri elementams */
+/* Išdėstymo (struktūros) nustatymai, bendri elementams */
 
 .container {
     max-width: 1440px;
     margin: 0 auto;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    padding-left: 130px;
-    padding-right: 130px;
+    padding: 0 135px;
 }
 
-@media (max-width: 375px) {
-    .header {
-        padding-left: 20px;
-        padding-right: 20px;
-    }
+.full-bg {
+    width: 100%;
+    background-color: white;
 }
