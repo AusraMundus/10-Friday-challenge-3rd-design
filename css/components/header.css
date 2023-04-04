@@ -1,14 +1,10 @@
-@import '../base/base.css';
-@import '../base/layout.css';
-
 .header {
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    padding: 35px 135px;
-    background-color: #74C69D;
-    
+    min-height: 120px;
+    padding: 35px 0;
 }
 
 .header-logo {

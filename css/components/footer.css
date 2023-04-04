@@ -1,0 +1,10 @@
+@import '../base/base.css';
+@import '../base/layout.css';
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 35px 135px;
+}
