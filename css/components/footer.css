@@ -6,5 +6,37 @@
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    padding: 35px 135px;
+    padding-top: 35px;
+    padding-bottom: 35px;
+}
+
+.footer .socials {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+    color: white;
+}
+
+.footer .social {
+    color: white;
+    font-size: 18px;
+}
+.footer .social:hover {
+    color: black;
+}
+
+.footer .copyright {
+    color: white;
+    font-size: 20px;
+}
+
+/* Media */
+
+@media screen and (max-width: 850px) {
+    .footer {
+        flex-direction: column;
+        gap: 20px 0;
+    }
 }

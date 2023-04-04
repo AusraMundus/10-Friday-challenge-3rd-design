@@ -43,4 +43,8 @@
         max-width: 129px;
         max-height: 38px;
     }
+
+    .main-nav {
+        display: none;
+    }
 }
