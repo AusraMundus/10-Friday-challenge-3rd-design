@@ -19,7 +19,7 @@ Design: [Start Home Page](https://www.figma.com/file/V1JPQMZa66Mk53vnN5tvaM/FE-(
 
 -   Github pages
 -   Responsive design: Desktop, Mobile
--   Hamburger menu
+-   Hamburger menu (static design)
 -   FontAwesome icons
 -   CSS flex
 
