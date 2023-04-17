@@ -32,6 +32,16 @@
     color: black;
 }
 
+.hamburger {
+    display: none;
+}
+
+.hamburger *{
+    color: white;
+    font-size: 3rem;
+    text-decoration: none;
+}
+
 @media (max-width: 375px) {
     .header {
         max-width: 355px;
@@ -43,8 +53,19 @@
         max-width: 129px;
         max-height: 38px;
     }
+}
 
-    .main-nav {
+@media (max-width: 900px) {
+    .header .main-nav {
         display: none;
     }
+    .header .hamburger {
+        display: inline-block;
+        color: white;
+        font-size: 38px;
+        text-decoration: none;
+    }
+    .header .hamburger:hover {
+    color: black;
+}
 }
